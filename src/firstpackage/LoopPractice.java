@@ -1,6 +1,8 @@
 package firstpackage;
 
 public class LoopPractice {
+    private static int i;
+
     //psvm
     public static void main(String[] args) {
         //sout
@@ -9,13 +11,45 @@ public class LoopPractice {
         // keep counting till 9
         // increment the number evrey time
         // for everytime print i love java
-        // for loop
-        for (int i = 0; i < 10; i++) {
-            System.out.println("i love java ");
-        }
-// keyword (startingPoint;endingPoint;increment){--> body starts
+        // for loop --> increment
+        // keyword (startingPoint;endingPoint;increment){--> body starts
         // body//--> body ends
         for (int i = 0; i < 10; i++) {
             System.out.println("i love java " + i);
         }
+        // for loop --> decrement
+        for (int i = 10; i > 0; i--) {
+            System.out.println("i love python" + i);
+        }
+        for (int i = 0; i > -5; i--) {
+            System.out.println("i love selenium" + i);
+        }
+        // print java 10 times
+        // for each times of java print selenium 2 times
+
+
+        //inner for loop
+        for (int i = 0; i < 10; i++) {
+            System.out.println(" java" + i);
+            for (int j = 0; j < 2; j++) {
+                System.out.println(" selenium");
+
+            }
+        }
+
+        // conditional for loop
+        // count till 10, if the number is 5 , print java,if the number is 6 print selenium
+        // for the rest , print python
+
+        for ( int i=0;i<10;i++);
+
+        if(i==5){
+            System.out.println("java");
+        }else if (i==6){
+            System.out.println("selenium");
+        }else{
+            System.out.println("python");
+        }
+
     }
+}
